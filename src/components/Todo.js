@@ -1,6 +1,12 @@
 import React from "react";
 
 const Todo = ({ text }) => {
+
+// Events
+const deleteHandler = () => {
+    
+}
+
   return (
     <div className='todo'>
       <li className='todo-item'>{text}</li>
